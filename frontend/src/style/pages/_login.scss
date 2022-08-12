@@ -1,0 +1,31 @@
+@import "../abstracts/mixins";
+
+.login
+{
+    @include flexColumn();
+}
+
+.login-form
+{
+    @include flexColumn();
+    margin-top: 40px;
+
+    &__input
+    {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    &__button
+    {
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 20%;
+        height: 40px;
+    }
+
+    &__label
+    {
+        margin-top: 20px;
+    }
+}

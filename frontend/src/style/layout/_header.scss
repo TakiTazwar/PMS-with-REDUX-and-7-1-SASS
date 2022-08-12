@@ -1,0 +1,23 @@
+@import  '../abstracts/variables';
+
+.header
+{
+    @include flexRow();
+    background-color: $headerColor;
+    height: 70px;
+    margin-bottom: 30px;
+
+
+    
+
+    &__logo
+    {
+        width: 10%;
+        height: 70px;
+    }
+
+    &__logout
+    {
+        height: 70px;
+    }
+}

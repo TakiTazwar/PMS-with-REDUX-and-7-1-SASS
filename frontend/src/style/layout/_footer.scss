@@ -1,0 +1,13 @@
+@import  '../abstracts/variables';
+
+.footer
+{
+    background-color: $footerColor;
+    height: 50px;
+
+    &__text
+    {
+        
+        color: white;
+    }
+}

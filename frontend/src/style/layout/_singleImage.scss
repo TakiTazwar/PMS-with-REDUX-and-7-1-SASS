@@ -1,0 +1,27 @@
+@import "../abstracts/mixins";
+@import  '../abstracts/variables';
+
+
+
+.single-image
+{
+    @include flexColumn();
+
+    width: $singleImageWidth;
+    border: 1px solid;
+    border-color: $singleImageBorderColor;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    &__label
+    {
+        font-weight: 700;
+    }
+
+    &__image
+    {
+        width: 300px;
+        margin: 0 auto;
+    }
+}

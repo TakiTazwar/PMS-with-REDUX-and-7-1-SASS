@@ -1,0 +1,45 @@
+@import "../abstracts/mixins";
+@import '../base/typography';
+
+.registration-form
+{
+    @include flexColumn();
+    &__button
+    {
+        width: 20%;
+        height: 60px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    &__input
+    {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &__label
+    {
+        margin-top: 20px;
+    }
+}
+
+
+.registration-header
+{
+    font-family: $font;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.registration-signup
+{
+    text-decoration: none;
+    
+
+    &__text
+    {
+        font-size: 40px;
+        cursor: pointer;
+    }
+}

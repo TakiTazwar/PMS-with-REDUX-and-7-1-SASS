@@ -1,0 +1,23 @@
+@use './components/buttons';
+
+@use './components/label';
+
+@use './components/input';
+
+@use './components/links';
+
+@use './base/typography';
+
+@use './base/mainContainer';
+
+@use "./pages/registration";
+
+@use "./pages/showImage";
+
+@use "./pages/login";
+
+@use "./pages/editMedicine";
+
+@use "./layout/header";
+
+@use "./layout/footer";

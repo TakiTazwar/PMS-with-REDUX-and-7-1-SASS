@@ -1,0 +1,28 @@
+@use '../layout/singleImage';
+@import "../abstracts/mixins";
+@import  '../abstracts/variables';
+
+.show-image
+{
+    @include flexColumn();
+
+
+    &__buttons
+    {
+        @include flexRow();
+    }
+
+    &__main
+    {
+        @include flexRow();
+        flex-wrap: wrap;
+    }
+
+    &__create
+    {
+        &__text
+        {
+            cursor: pointer;
+        }
+    }
+}

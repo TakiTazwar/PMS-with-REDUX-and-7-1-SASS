@@ -1,0 +1,8 @@
+@import  '../abstracts/variables';
+
+.button
+{
+    background-color: $buttonColor;
+    color: $buttonFontColor;
+    cursor: pointer;
+}

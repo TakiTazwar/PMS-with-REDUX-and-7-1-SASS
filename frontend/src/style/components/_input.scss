@@ -1,0 +1,16 @@
+@import  '../abstracts/variables';
+@import '../base/typography';
+
+.input
+{
+    font-family: $font ;
+    color: $inputForeColor;
+    font-size: $defaultSize;
+    margin: 0 auto;
+    padding: 12px 16px;
+    border-radius: 0.2rem;
+    background-color: $inputBackColor;
+    border: solid;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}

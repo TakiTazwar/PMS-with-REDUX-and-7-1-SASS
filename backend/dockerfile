@@ -1,0 +1,11 @@
+FROM node:16.15.0
+
+WORKDIR /appd
+
+COPY . .
+
+RUN npm i
+
+EXPOSE 5000
+
+CMD ["node","app.js"]

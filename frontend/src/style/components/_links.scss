@@ -1,0 +1,13 @@
+@import  '../abstracts/variables';
+
+.link
+{
+    text-decoration: none;
+    
+
+    &__text
+    {
+        font-size: $linkFontSize;
+        cursor: pointer;
+    }
+}
